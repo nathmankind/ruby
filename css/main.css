@@ -1,0 +1,135 @@
+
+.carousel-inner::before {
+    background-color: #000000;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.intro img {
+    width: 90%;
+}
+.tools img {
+    width: 100%;
+    border-radius: 8px;
+}
+.tools h2 {
+    font-size: 3rem;
+}
+.text p {
+    padding: 5% 0;
+    height: inherit;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.projects img {
+    width: 95%;
+    border-radius: 10px;
+}
+.projects h1 {
+    font-size: 400;
+}
+.carousel-caption p {
+    font-size: 20px;
+}
+.carousel-caption {
+    top: 30%;
+}
+.title-color {
+    color: #FF6700;
+}
+.nav-item {
+    color: #ff670069!important;
+    font-size: 18px;
+}
+.contact {
+    border: 1px solid #FF6700;
+    border-radius: 4px;
+}
+.contact:hover {
+    color: #fff !important;
+    background: #FF6700;
+}
+
+.section-tool h1 {
+    font-weight: 400;
+}
+.section-tool-1 {
+    background: #e0ab6bc2;
+    padding: 20px 0;
+}
+.section-tool-2 {
+    background: #0f2a69c9;
+    padding: 20px 0;
+    color: antiquewhite;
+}
+.section-tool-3 {
+    background: #af3a3ad9;
+    padding: 20px 0;
+    color: antiquewhite;
+}
+.join-team {
+    background: ghostwhite;
+}
+.join-team button {
+    background: transparent;
+    border: 1px solid #FF6700;
+    border-radius: 10px;
+}
+.join-team button:hover {
+    background: #FF6700;
+    color: #fff;
+}
+.join-team button a {
+    text-decoration: none;
+}
+.join-team button a:hover {
+    color: #fff;
+}
+footer{
+    background-image: url(../assets/footer-img.jpg);
+    color: #a7a39f;
+    font-size: 18px!important;
+
+}
+
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 0;
+}
+footer ul li a {
+    text-decoration: none !important;
+    color: #a7a39f !important;
+}
+footer ul li a:hover {
+    color: #fff !important;
+}
+footer hr {
+    width: 50%;
+    margin-left: 0;
+    margin-top: 2px;
+    background: #a7a39f;
+}
+footer .col-md-4 a {
+    text-decoration: none !important;
+    color: #a7a39f !important;
+}
+footer .col-md-4 a:hover {
+    color: #fff;
+}
+footer img {
+    width: 20%;
+}
+@media screen and (max-width:995px){
+    .nav-item {
+        font-size: 14px;
+    }
+}
