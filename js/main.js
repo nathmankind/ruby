@@ -1,3 +1,10 @@
+$('.navbar li').on('click', function(){
+  alert('hey navbar');
+  $('.navbar').find('.active').removeClass('active');
+  $(this).parent().addClass('active');
+});
+
+
 $('.counter').each(function() {
     var $this = $(this),
         countTo = $this.attr('data-count');
@@ -23,3 +30,4 @@ $('.counter').each(function() {
     
   
   });
+
