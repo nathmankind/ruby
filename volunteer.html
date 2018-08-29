@@ -5,16 +5,17 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <meta http-equiv="X-UA-Compatible" content="ie=edge">
                 <title>RubiesTech | Empowering to Innovate </title>
-                <link rel="stylesheet" href="css/bootstrap.min.css">
-                <link rel="stylesheet" href="css/main.css">
-                <link rel="stylesheet" href="css/volunteer.css">
+                <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+                <link rel="stylesheet" href="assets/css/main.css">
+                <link rel="stylesheet" href="assets/css/volunteer.css">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 <style>
                     .nav-item .active>.nav-link {
                 color: #FF6700;
             }
             .navbar-light .navbar-nav .nav-link {
-                color: #ff670069;
+                /*color: #ff670069; */
+                text-transform: uppercase;
             }.navbar-light .navbar-nav .nav-link:hover {
                 color: #FF6700;
             }
@@ -27,8 +28,8 @@
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="index2.html">
-                    <img src="assets/rubylogo.png" alt="logo">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/rubylogo.png" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,7 +37,7 @@
                 <div class="collapse navbar-collapse title-color" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto" style="color: #6b95e0;">
                         <li class="nav-item">
-                            <a class="nav-link" href="index2.html">Home </a>
+                            <a class="nav-link" href="index.html">Home </a>
                         </li>
                         <li class="nav-item"> 
                             <a class="nav-link" href="about.html">About</a>
@@ -82,9 +83,9 @@
             </div>
             <div class="container text-center py-5 my-3">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="team-card">
-                            <img src="assets/boy-child-cute-35537.jpg" alt="">
+                    <div class="col-md-4 py-2">
+                        <div class="team-card ">
+                            <img src="assets/images/boy-child-cute-35537.jpg" alt="">
                             <div class="volunteer-details">
                                 <h4 class="pt-3">John Doe</h4>
                                 <p>Android Developer</p>
@@ -105,9 +106,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="team-card">
-                            <img src="assets/boy-child-cute-35537.jpg" alt="">
+                    <div class="col-md-4 py-2">
+                        <div class="team-card ">
+                            <img src="assets/images/boy-child-cute-35537.jpg" alt="">
                             <div class="volunteer-details">
                                 <h4 class="pt-3">John Doe</h4>
                                 <p>Android Developer</p>
@@ -128,9 +129,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="team-card">
-                            <img src="assets/boy-child-cute-35537.jpg" alt="">
+                    <div class="col-md-4 py-2">
+                        <div class="team-card ">
+                            <img src="assets/images/boy-child-cute-35537.jpg" alt="">
                             <div class="volunteer-details">
                                 <h4 class="pt-3">John Doe</h4>
                                 <p>Android Developer</p>
@@ -155,9 +156,9 @@
             </div>
             <div class="container text-center py-5 ">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="team-card">
-                            <img src="assets/boy-child-cute-35537.jpg" alt="">
+                    <div class="col-md-4 py-2">
+                        <div class="team-card ">
+                            <img src="assets/images/boy-child-cute-35537.jpg" alt="">
                             <div class="volunteer-details">
                                 <h4 class="pt-3">John Doe</h4>
                                 <p>Android Developer</p>
@@ -178,9 +179,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 py-2">
                         <div class="team-card">
-                            <img src="assets/boy-child-cute-35537.jpg" alt="">
+                            <img src="assets/images/boy-child-cute-35537.jpg" alt="">
                             <div class="volunteer-details">
                                 <h4 class="pt-3">John Doe</h4>
                                 <p>Web Developer</p>
@@ -201,9 +202,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 py-2">
                         <div class="team-card">
-                            <img src="assets/boy-child-cute-35537.jpg" alt="">
+                            <img src="assets/images/boy-child-cute-35537.jpg" alt="">
                             <div class="volunteer-details">
                                 <h4 class="pt-3">John Doe</h4>
                                 <p>Digital Marketer</p>
@@ -230,6 +231,10 @@
         <div class="volunteer-form my-3 py-3">
             <h1 class="title-color text-center mb-4 pb-5">Register as a volunteer</h1>
             <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-md-offset-2">
+
+                    
                 <form class="needs-validation" novalidate>
                     <div class="form-row">
                         <div class="col-md-6 mb-3">
@@ -291,8 +296,10 @@
                         <label for="reason">Why do you want to join rubies technologies</label>
                         <textarea name="reason" id="reason" cols="30" rows="10" class="form-control" required></textarea>
                     </div>
-                    <button class="btn btn-primary" type="submit">Submit form</button>
+                    <button class="btn btn-rubies" type="submit">Submit form</button>
                 </form>
+            </div>
+        </div>
             </div>
         </div>
     </main>
@@ -301,7 +308,7 @@
         <div class="footer container">
             <div class="row">
                 <div class="col-md-4 col-sm-4">
-                    <img src="assets/logo-fff.png" alt="logo-small">
+                    <img src="assets/images/logo-fff.png" alt="logo-small">
                     <p>Empowering to Innovate</p>
                     <div class="social-icons">
                         <span class="fa-stack">

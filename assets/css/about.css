@@ -22,7 +22,7 @@
     font-size: 32px;
 }
 .about-head-section {
-    background: url(../assets/about-banner.jpg);
+    background: url(../images/about-banner.jpg);
     -webkit-background-size: cover!important;
     -moz-background-size: cover!important;
     -o-background-size: cover!important;

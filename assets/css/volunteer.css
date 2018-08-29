@@ -1,5 +1,5 @@
 .volunteer-head-section {
-    background: url(../assets/volunteer_head.jpg);
+    background: url(../images/volunteer_head.jpg);
     -webkit-background-size: cover!important;
     -moz-background-size: cover!important;
     -o-background-size: cover!important;
@@ -24,4 +24,11 @@
 .team-card:hover {
     box-shadow: 8px 14px 49px 20px rgba(0, 0, 0, 0.12);
     transition: 300ms;
+}
+.btn-rubies {
+    color: #fff;
+    background-color: #ff6600b1;
+}
+.btn-rubies:hover {
+    background-color: #ff6600;
 }

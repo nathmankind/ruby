@@ -47,8 +47,11 @@
 }
 .nav-item {
     color: #ff670069!important;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 500;
 }
+
+/*
 .contact {
     border: 1px solid #FF6700;
     border-radius: 4px;
@@ -57,6 +60,7 @@
     color: #fff !important;
     background: #FF6700;
 }
+*/
 
 .section-tool h1 {
     font-weight: 400;
@@ -99,7 +103,7 @@
     color: #fff;
 }
 footer{
-    background-image: url(../assets/footer-img.jpg);
+    background-image: url(../images/footer-img.jpg);
     color: #a7a39f;
     font-size: 15px!important;
 }
@@ -134,7 +138,7 @@ footer img {
 }
 @media screen and (max-width:995px){
     .nav-item {
-        font-size: 14px;
+       font-size: 14px;
     }
 }
 @media screen and (max-width:576px){
