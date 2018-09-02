@@ -4,6 +4,13 @@
 //   $(this).parent().addClass('active');
 // });
 
+$('.volunteer-btn').on('click', function(e){
+  window.location.href="volunteer.html";
+});
+
+$('.story-btn').on('click', function(e){
+  window.location.href="submit-post.html";
+});
 
 $('.counter').each(function() {
     var $this = $(this),

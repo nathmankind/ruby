@@ -164,3 +164,10 @@ a:hover {
     color: #FF6700;
     text-decoration: underline;
 }
+
+.story-btn {
+    color: #FF6700;
+}
+.story-btn:hover {
+    color: #fff;
+}
