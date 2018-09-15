@@ -9,71 +9,353 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blog.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-            .nav-item .active>.nav-link {
-        color: #FF6700;
-    }
-    .navbar-light .navbar-nav .nav-link {
-        /*color: #ff670069; */
-        text-transform: uppercase;
-    }.navbar-light .navbar-nav .nav-link:hover {
-        color: #FF6700;
-    }
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .active>.nav-link {
-        color: #FF6700;
-    }
-        </style>
+    <style>
+        .nav-item .active>.nav-link {
+            color: #FF6700;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            /*color: #ff670069; */
+            text-transform: uppercase;
+        }
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #FF6700;
+        }
+        .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav, 
+        .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .active>.nav-link {
+            color: #FF6700;
+        }
+        .title {
+            padding: 12px 5px;
+        }
+    </style>
 </head>
 <body>
-        <header>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/rubylogo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse title-color" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto" style="color: #6b95e0;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="activities.html">Activities</a>
+                        </li>
+                        <li class="nav-item active"> 
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="volunteer.html">Volunteer</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link contact" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <div class="blog-head-section">
             <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/rubylogo.png" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse title-color" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto" style="color: #6b95e0;">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home </a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="activities.html">Activities</a>
-                            </li>
-                            <li class="nav-item active"> 
-                                <a class="nav-link" href="blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="gallery.html">Gallery</a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="volunteer.html">Volunteer</a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link contact" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
+                <div class="section-text ">
+                    <h1>Blog</h1>
+                    <p>Welcome to our blog page. <br> Get the latest news on about thriving technologies and how it is changing the world.</p>
+                    <div class="explore py-3">
                     </div>
-                </nav>
+                </div>             
             </div>
-        </header>
-        <div class="main">
-            <div class="blog-head-section">
-                <div class="container">
-                    <div class="section-text ">
-                        <h1>Blog</h1>
-                        <p>Welcome to our blog page. <br> Get the latest news on about thriving technologies and how it is changing the world.</p>
-                        <div class="explore py-3">
+        </div>
+    </div>
+    <main class="container all-content" style="margin-top: 4rem;">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="contain-article mb-5">
+                    <div class="title">
+                        <h3><a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a> </h3>
+                        <div>
+                            <img src="assets/images/coding.gif" alt="">
+                            <div class="blog-details">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo ea. Commodi dolores, atque assumenda earum voluptatem recusandae, omnis rerum excepturi ipsam nisi, aliquam enim nobis. Magnam ipsam sit in.</p>
+                                
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo ea. Commodi dolores, atque assumenda earum voluptatem recusandae, omnis rerum excepturi ipsam nisi, aliquam enim nobis. Magnam ipsam sit in. </p>
+                                
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo ea. Commodi dolores, atque assumenda earum voluptatem recusandae, omnis rerum excepturi ipsam nisi, aliquam enim nobis. Magnam ipsam sit in. </p>
+                                
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo ea. Commodi dolores, atque assumenda earum voluptatem recusandae, omnis rerum excepturi ipsam nisi, aliquam enim nobis. Magnam ipsam sit in. </p>
+                                
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo ea. Commodi dolores, atque assumenda earum voluptatem recusandae, omnis rerum excepturi ipsam nisi, aliquam enim nobis. Magnam ipsam sit in. </p>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo ea. Commodi dolores, atque assumenda earum voluptatem recusandae, omnis rerum excepturi ipsam nisi, aliquam enim nobis. Magnam ipsam sit in. </p>
+                                
+                            </div>
                         </div>
                     </div>
-                        
+                </div>
+
+                <!-- Comments div -->
+                <div id="comments-div">
+                    <div>
+                        <p id="comments">Comments</p>
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <img src="assets/images/commenter.png" class="img-fluid" alt="An Image"> 
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <form style="margin-top: 20px;">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="post-comment" placeholder="Write a comment">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="commentsdiv">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-2">
+                                    <img src="assets/images/commenter-two.png" class="img-fluid" alt="An Image"> 
+                                </div>
+                                <div class="col-md-10 col-sm-10">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-3">
+                                            <p class="commenter-name">Xyluz</p>
+                                            <p>3 mins ago</p>
+                                        </div>
+                                        <div class="col-md-10 col-sm-9">
+                                            <div class="flex-container pull-right">
+                                                <div class="flex-item">
+                                                    <i class="fa fa-share"></i>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <i class="fa fa-share"></i>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <i class="fa fa-share"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="commenter-comment">My loremDuis aute irure dolor in Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                                        </div>
+                                    </div>
+                                </div>       
+                            </div>
+                        <div class="commentsdiv">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-2">
+                                    <img src="assets/images/commenter-two.png" class="img-fluid" alt="An Image"> 
+                                </div>
+                                <div class="col-md-10 col-sm-10">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-3">
+                                            <p class="commenter-name">Xyluz</p>
+                                            <p>3 mins ago</p>
+                                        </div>
+                                        <div class="col-md-9 col-sm-9">
+                                            <div class="flex-container pull-right">
+                                                <div class="flex-item">
+                                                    <i class="fa fa-share"></i>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <i class="fa fa-share"></i>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <i class="fa fa-share"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="commenter-comment">My loremDuis aute irure dolor in Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2">
+                                            <div class="replycomment-line"></div>
+                                        </div>
+                                        <div class="col-md-10 col-sm-10 space-left">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-2">
+                                                    <img src="assets/images/commenter-two.png" class="img-fluid" alt="An Image"> 
+                                                </div>
+                                                <div class="col-md-9 col-sm-10">
+                                                    <div>
+                                                        <p class="commenter-name">Xyluz</p>
+                                                        <p>3 mins ago</p>
+                                                        <p class="commenter-comment">My loremDuis aute irure dolor in Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="text-center">
+                            <form>
+                                <button type="button" class="btn btn-info load hvr-shrink">LOAD MORE COMMENTS</button>
+                            </form>
+                        </div>    
+                    </div>    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <aside class="aside">
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <button  class="btn story-btn">SUBMIT YOUR POST</button>
+                            </div>
+                            <div class="col-md-12">
+                                <p>Got a story to share about your experience on coding? Let's help you share it with the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-4">
+                        <div class="row header">
+                            <div class="col-md-12">
+                                <div class="aside-block">
+                                    <div class="block-head text-align center">
+                                        <h4>Trending Posts</h4>
+                                        <hr>
+                                    </div>
+                                    <div class="row trend">
+                                        <div class="col-md-3">
+                                            <img src="assets/images/placeholder-img.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="article-title">
+                                                <h5><a href="#"> What the furure entails with machine learning</a></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row trend">
+                                        <div class="col-md-3">
+                                            <img src="assets/images/placeholder-img.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="article-title">
+                                                <h5><a href="#">Machine and emotions. Artificial Intelligence</a></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row trend">
+                                        <div class="col-md-3">
+                                            <img src="assets/images/placeholder-img.jpg" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="article-title">
+                                                <h5><a href="#">How the internet works. Internet of things</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-5">
+                        <div class="row header">
+                            <div class="col-md-12">
+                                <div class="aside-block">
+                                    <div class="block-head text-center">
+                                        <h4>Categories</h4>
+                                        <hr>
+                                    </div>
+                                    <div class="row categories">
+                                        <div class="col-md-12">
+                                            <ul>
+                                                <li><a href="#">Robotics</a> </li>
+                                                <hr>
+                                                <li><a href="#">Machine Learning</a></li>
+                                                <hr>
+                                                <li><a href="#">Android Development</a></li>
+                                                <hr>
+                                                <li><a href="#">Web Development</a></li>
+                                                <hr>
+                                                <li><a href="#">Start Up</a></li>
+                                                <hr>
+                                                <li><a href="#">Designs</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Insert main page content here-->
+
+    <footer class=" py-5 lead">
+        <div class="footer container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <img src="assets/images/logo-fff.png" alt="logo-small">
+                    <p>Empowering to Innovate</p>
+                    <div class="social-icons">
+                        <span class="fa-stack">
+                            <a href="#"><i class="fa fa-circle-thin fa-stack-2x"></i></a>
+                            <a href="#"><i class="fa fa-facebook fa-stack-1x"></i></a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#"><i class="fa fa-circle-thin fa-stack-2x"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-stack-1x"></i></a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#"><i class="fa fa-circle-thin fa-stack-2x"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-stack-1x"></i></a>
+                        </span>
+                    </div>
+                    <p><span><i class="fa fa-copyright"></i></span> Copyright 2017</p>
+                </div>
+                <div class="col-md-4 col-sm-4 pt-4">
+                    <h4>Services</h4>
+                    <hr>
+                    <ul>
+                        <li><a href="#">Summer Code Camp</a> </li>
+                        <li><a href="#">Code School</a> </li>
+                        <li><a href="#">Lorem Ipsum</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 pt-4">
+                    <h4>Contact</h4>
+                    <hr>
+                    <ul>
+                        <li><i class="fa fa-envelope-o"></i> <span style="padding-left:5px;">temiloluwaruth@gmail.com</span> </li>
+                        <li><i class="fa fa-phone"></i><span style="padding-left:15px;">08123456789</span> </li>
+                    </ul>
+            
                 </div>
             </div>
         </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
