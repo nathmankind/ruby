@@ -187,10 +187,12 @@ footer img {
         padding: 150px 0;
     }
 }
+.button-head .volunteer-btn{
+    background: #FF6700;
+}
 
 .volunteer-btn {
     color: white;
-    background: #FF6700;
     border: none;
     font-size: 18px;
 }
